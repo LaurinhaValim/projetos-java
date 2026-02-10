@@ -1,4 +1,4 @@
-package br.edu.ifsp.ead1;
+package br.edu.ifsp.list03;
 
 /*
 Dada uma String arbitrária, faça um programa que imprima “Sim” se essa for palíndromo e “Nao”, caso contrário.

@@ -1,4 +1,4 @@
-package br.edu.ifsp.ead1;
+package br.edu.ifsp.list03;
 
 /*
 Implemente um programa que gere senhas provisórias a partir do nome do usuário, seguindo o mesmo

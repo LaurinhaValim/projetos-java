@@ -1,4 +1,4 @@
-package br.edu.ifsp.ead1;
+package br.edu.ifsp.list03;
 
 /*
 Faça um programa que, dada uma String, encontra a primeira e a última substrings de tamanho K de acordo com a ordem

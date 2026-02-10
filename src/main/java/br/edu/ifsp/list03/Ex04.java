@@ -1,4 +1,4 @@
-package br.edu.ifsp.ead1;
+package br.edu.ifsp.list03;
 
 /*
 Dada duas Strings A e B, faça um programa que imprima “Sim” se A e B são anagramas e “Nao”, caso contrário.
