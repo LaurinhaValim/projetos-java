@@ -15,11 +15,11 @@ package br.edu.ifsp.list01;
 */
 class Ex01 {
 
-    public static void main(String[] args) {
-//        final Scanner scanner = new Scanner(System.in);
-//        final int input = scanner.nextInt();
-//        final Ex01 ex01 = new Ex01();
-//        System.out.println(ex01.compute(input));
+//    public static void main(String[] args) {
+ //       final Scanner scanner = new Scanner(System.in);
+  //      final int input = scanner.nextInt();
+// final Ex01 ex01 = new Ex01();
+ //       System.out.println(ex01.compute(input));
     }
 
     String compute(int input){
