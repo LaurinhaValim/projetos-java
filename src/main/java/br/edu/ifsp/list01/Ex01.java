@@ -22,15 +22,13 @@ class Ex01 {
 //        System.out.println(ex01.compute(input));
     }
 
-    String compute(int qtdLivros) {
-        if (qtdLivros <= 0) return "Erro";
+    String compute(int input){
+        if (input <= 0) return "Erro";
+        double criterioA = (0.25 * input) + 7.5; 
+        double criterioB = (0.50 * input) + 2.50;
 
-        final double precoA = 0.25 * qtdLivros + 7.5;
-        final double precoB = 0.5 * qtdLivros + 2.5;
-
-        if (precoA == precoB) return "Indiferente";
-        if (precoA < precoB) return "Criterio A";
-
-        return  "Criterio B";
+        if (criterioA < criterioB) return "Criterio A";
+        else if (criterioB < criterioA) return "CriterioB";
+        else return "Indiferente";
     }
 }
