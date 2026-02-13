@@ -22,14 +22,23 @@ package br.edu.ifsp.list01;
 public class Ex06 {
 
     public static void main(String[] args) {
-        //Leia o input
-        //Crie uma variável do tipo deste arquivo. Exemplo: Ex02 ex = new Ex02();
-        //Escreva o resultado da chamada do método compute() aqui
+        final Scanner scanner = new Scanner(System.in);
+        final double L = scanner.nextDouble();;
+        final double a = scanner.nextDouble();
+        final  double c = scanner.nextDouble();
+        final double m = scanner.nextDouble();
+        final Ex06 ex06 = new Ex06();
+        System.out.println(ex06.compute(L, a, c, m));
+
     }
 
     String compute(double L, double a, double c, double m) {
-        String output = null;
-        //put your logic here
-        return output;
+        double area = L * a;
+
+        int qtd_latas = (int) Math.ceil(area / m);
+
+        double custo = qtd_latas * c;
+
+        return String.format(java.util.Locale.US, "%d %.2f",qtd_latas, custo);
     }
 }
