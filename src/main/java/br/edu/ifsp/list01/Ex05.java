@@ -23,14 +23,23 @@ package br.edu.ifsp.list01;
 public class Ex05 {
 
     public static void main(String[] args) {
-        //Leia o input
-        //Crie uma variável do tipo deste arquivo. Exemplo: Ex02 ex = new Ex02();
-        //Escreva o resultado da chamada do método compute() aqui
+        final Scanner scanner = new Scanner(System.in);
+        final int L = scanner.nextInt();
+        final double m = scanner.nextDouble();
+        final double a = scanner.nextDouble();
+        final int v = scanner.nextInt();
+        final Ex05 ex05 = new Ex05();
+        System.out.println(ex05.compute(L, m, a, v));
+
     }
 
     String compute(int L, double m, double a, int v) {
-        String output =  null;
-        //put your logic here
-        return output;
+        double total_multa = 0.0;
+        if (v > L) {
+            int acima = v - L;
+            total_multa = m + (a * acima);
+        }
+        return String.format(java.util.Locale.US, "%.2f", total_multa);
     }
-}
+
+}}
